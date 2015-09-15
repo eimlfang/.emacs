@@ -1,3 +1,5 @@
+;;(load-theme 'monokai t)
+;; ========= Package setting =============
 ;(setq package-archives 
 ;  '(("gnu" . "http://elpa.gnu.org/packages/")
 ;("marmalade" . "http://marmalade-repo.org/packages/")
@@ -5,25 +7,64 @@
 
 ; start package.el whith emacs
 (require 'package)
+
 ; add MELPA to repository list
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(add-to-list 'package-archives
+	     '("melpa" . "http://melpa.milkbox.net/packages/")
+	     t)
+
+(add-to-list 'package-archives
+	     '("marmalade" . "http://marmalade-repo.org/packages/")
+	     t)
+
 ; initialize package.el
 (package-initialize)
 
-					; Yasnippet 代码块
+;; ========= Package setting done ========
+
+;; ============= Plugin setting ==========
+
+; Yasnippet 代码块
 (add-to-list 'load-path  
 	     "~/.emacs.d/plugins/yasnippet")
 (setq yas/root-directory "~/.emacs.d/plugins/yasnippet/snippets")
 (require 'yasnippet)
 (yas/global-mode 1)
 
-					; auto-complete
+; auto-complete
 (add-to-list 'load-path "~/.emacs.d/plugins/auto-complete")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
 (ac-config-default)
 
-;;-------------个人配置
+;; =============== Plugin setting done =====
+
+
+
+;; ============ Personal setting =========
+
+(show-paren-mode)
+
+;;显示行列号
+(setq column-number-mode t)
+(global-linum-mode t)
+
+(nlinum-mode)
+
+(autopair-global-mode)
+
+;;撤销树表
+(global-undo-tree-mode)
+
+(global-set-key (kbd "M-/") 'undo-tree-visualize)
+
+;;切换window
+;(global-set-key (kbd "C-M-z") 'switch-window)
+
+;(global-set-key (kdb "C->" 'ace-jump-mode)
+
+
+;; =========== Personal setting done =====
 
 ;;设置打开文件的缺省路径
 (setq default-directory "~/")
@@ -47,9 +88,6 @@
 ;;(setq font-lock-verbose t)
 ;;(setq font-lock-maximum-size '((t . 1048576) (vm-mode . 5250000)))
 
-;;显示行列号
-(setq column-number-mode t)
-(global-linum-mode t)
 
 ;;允许emacs和外部其他程序的粘贴
 (setq x-select-enable-clipboard t)
