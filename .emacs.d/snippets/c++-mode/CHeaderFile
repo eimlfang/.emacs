@@ -1,0 +1,12 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: CHeaderFile
+# key: CHeader
+# binding: direct-keybinding
+# --
+class ${1:ClassName}{
+public:
+    ${ClassName}();
+    ~${ClassName}();
+    
+private:
+};

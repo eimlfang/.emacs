@@ -1,0 +1,128 @@
+./algorithm
+ls
+/. main_exe
+./main_exe
+./main_exe
+ls -l
+main_exe
+getdit
+gedit
+ls
+rm main_exe
+ls
+ls
+g++ main.cpp function.h function.cpp -o hello
+ls
+g++ main.cpp -0 hello
+g++ main.cpp -o hello
+g++ main.cpp function.h function.cpp -o hello
+g++ main.cpp function.h function.cpp -o hello
+ls
+vim
+ls
+g++ main.cpp function.cpp -o hello
+ls
+./hello
+rm hello
+ls
+make
+ls
+rm hello_from_makefile
+ls
+make
+ls
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make readme
+make
+make
+make
+make readme
+make readme
+make
+make --readme
+clear
+clear
+clean
+hlep
+help
+ls
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make readme
+make aboutme
+ls
+ls
+make aboutme
+make aboutme
+make
+make all
+make all
+make all
+make all
+ls
+make clean
+ls
+make all
+ls
+AlgorithmLearning
+AlgorithmLearning
+./AlgorithmLearning
+make
+make build
+make run
+make clean
+ls
+make build
+ls
+make run
+make clean
+make clean
+ls
+make build
+make build
+ls
+make build
+ls
+make run
+ls
+make clean
+ls
+make build
+ls
+make run
+ls
+make clean
+make clean
+make
+make
+ls
+rm **eww**
+ls
+main.cpp
