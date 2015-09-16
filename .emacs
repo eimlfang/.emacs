@@ -1,9 +1,7 @@
+;; ===== Custom theme
+;;(add-to-list 'custom-theme-load-path "~/.emacs.d/custom-theme")
 ;;(load-theme 'monokai t)
 ;; ========= Package setting =============
-;(setq package-archives 
-;  '(("gnu" . "http://elpa.gnu.org/packages/")
-;("marmalade" . "http://marmalade-repo.org/packages/")
-;("melpa" . "http://melpa.org/packages/")))
 
 ; start package.el whith emacs
 (require 'package)
@@ -58,12 +56,22 @@
 
 (global-set-key (kbd "M-/") 'undo-tree-visualize)
 
-;;切换window
-;(global-set-key (kbd "C-M-z") 'switch-window)
+(setq winner-dont-bind-my-keys t)
+(winner-mode t)
+(global-set-key (kbd "C-z") 'winner-undo)
+(global-set-key (kbd "C-y") 'winner-redo)
+ 
+;;;; 各窗口间切换  
+(global-set-key [M-left] 'windmove-left)  
+(global-set-key [M-right] 'windmove-right)  
+(global-set-key [M-up] 'windmove-up)  
+(global-set-key [M-down] 'windmove-down)
 
-;(global-set-key (kdb "C->" 'ace-jump-mode)
-
-
+;; 设置emacs背景透明度
+(require 'alpha)
+(global-set-key (kbd "C-M-)") 'transparency-increase)
+(global-set-key (kbd "C-M-(") 'transparency-decrease)
+ 
 ;; =========== Personal setting done =====
 
 ;;设置打开文件的缺省路径
@@ -74,7 +82,8 @@
 (setq ido-save-directory-list-file nil)
 ;;Ido模式中部保存目录列表,解决退出emacs时ido要询问编码问题
 
-
+;; 选择全部
+(defun select-all () (interactive) (mark-whole-buffer))
 
 ;;关闭错误提示音
 (setq visible-bell t)
