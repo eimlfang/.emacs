@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE1881DB1BCCF9E300475099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1881DA1BCCF9E300475099 /* main.m */; };
+		DE1881DE1BCCF9E300475099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1881DD1BCCF9E300475099 /* AppDelegate.m */; };
+		DE1881E11BCCF9E300475099 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1881E01BCCF9E300475099 /* GameScene.m */; };
+		DE1881E31BCCF9E300475099 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE1881E21BCCF9E300475099 /* GameScene.sks */; };
+		DE1881E61BCCF9E300475099 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1881E51BCCF9E300475099 /* GameViewController.m */; };
+		DE1881E91BCCF9E300475099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1881E71BCCF9E300475099 /* Main.storyboard */; };
+		DE1881EB1BCCF9E300475099 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1881EA1BCCF9E300475099 /* Images.xcassets */; };
+		DE1881EE1BCCF9E300475099 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE1881EC1BCCF9E300475099 /* LaunchScreen.xib */; };
+		DE1881FA1BCCF9E300475099 /* FG2DLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1881F91BCCF9E300475099 /* FG2DLibraryTests.m */; };
+		DE1882061BCD033800475099 /* FGSceneConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1882051BCD033800475099 /* FGSceneConfig.m */; };
+		DE1882091BCD06D800475099 /* FGMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1882081BCD06D800475099 /* FGMovement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE1881F41BCCF9E300475099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE1881CD1BCCF9E300475099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE1881D41BCCF9E300475099;
+			remoteInfo = FG2DLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE1881D51BCCF9E300475099 /* FG2DLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FG2DLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1881D91BCCF9E300475099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1881DA1BCCF9E300475099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE1881DC1BCCF9E300475099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE1881DD1BCCF9E300475099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE1881DF1BCCF9E300475099 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DE1881E01BCCF9E300475099 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DE1881E21BCCF9E300475099 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DE1881E41BCCF9E300475099 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DE1881E51BCCF9E300475099 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DE1881E81BCCF9E300475099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE1881EA1BCCF9E300475099 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE1881ED1BCCF9E300475099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE1881F31BCCF9E300475099 /* FG2DLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FG2DLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1881F81BCCF9E300475099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1881F91BCCF9E300475099 /* FG2DLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FG2DLibraryTests.m; sourceTree = "<group>"; };
+		DE1882041BCD033800475099 /* FGSceneConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGSceneConfig.h; sourceTree = "<group>"; };
+		DE1882051BCD033800475099 /* FGSceneConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGSceneConfig.m; sourceTree = "<group>"; };
+		DE1882071BCD06D800475099 /* FGMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGMovement.h; sourceTree = "<group>"; };
+		DE1882081BCD06D800475099 /* FGMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGMovement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1881D21BCCF9E300475099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1881F01BCCF9E300475099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1881CC1BCCF9E300475099 = {
+			isa = PBXGroup;
+			children = (
+				DE1881D71BCCF9E300475099 /* FG2DLibrary */,
+				DE1881F61BCCF9E300475099 /* FG2DLibraryTests */,
+				DE1881D61BCCF9E300475099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE1881D61BCCF9E300475099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE1881D51BCCF9E300475099 /* FG2DLibrary.app */,
+				DE1881F31BCCF9E300475099 /* FG2DLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE1881D71BCCF9E300475099 /* FG2DLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DE1882031BCD030D00475099 /* FG2DLibrary */,
+				DE1881DC1BCCF9E300475099 /* AppDelegate.h */,
+				DE1881DD1BCCF9E300475099 /* AppDelegate.m */,
+				DE1881DF1BCCF9E300475099 /* GameScene.h */,
+				DE1881E01BCCF9E300475099 /* GameScene.m */,
+				DE1881E21BCCF9E300475099 /* GameScene.sks */,
+				DE1881E41BCCF9E300475099 /* GameViewController.h */,
+				DE1881E51BCCF9E300475099 /* GameViewController.m */,
+				DE1881E71BCCF9E300475099 /* Main.storyboard */,
+				DE1881EA1BCCF9E300475099 /* Images.xcassets */,
+				DE1881EC1BCCF9E300475099 /* LaunchScreen.xib */,
+				DE1881D81BCCF9E300475099 /* Supporting Files */,
+			);
+			path = FG2DLibrary;
+			sourceTree = "<group>";
+		};
+		DE1881D81BCCF9E300475099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1881D91BCCF9E300475099 /* Info.plist */,
+				DE1881DA1BCCF9E300475099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE1881F61BCCF9E300475099 /* FG2DLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE1881F91BCCF9E300475099 /* FG2DLibraryTests.m */,
+				DE1881F71BCCF9E300475099 /* Supporting Files */,
+			);
+			path = FG2DLibraryTests;
+			sourceTree = "<group>";
+		};
+		DE1881F71BCCF9E300475099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1881F81BCCF9E300475099 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE1882031BCD030D00475099 /* FG2DLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DE1882041BCD033800475099 /* FGSceneConfig.h */,
+				DE1882051BCD033800475099 /* FGSceneConfig.m */,
+				DE1882071BCD06D800475099 /* FGMovement.h */,
+				DE1882081BCD06D800475099 /* FGMovement.m */,
+			);
+			path = FG2DLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE1881D41BCCF9E300475099 /* FG2DLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1881FD1BCCF9E300475099 /* Build configuration list for PBXNativeTarget "FG2DLibrary" */;
+			buildPhases = (
+				DE1881D11BCCF9E300475099 /* Sources */,
+				DE1881D21BCCF9E300475099 /* Frameworks */,
+				DE1881D31BCCF9E300475099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FG2DLibrary;
+			productName = FG2DLibrary;
+			productReference = DE1881D51BCCF9E300475099 /* FG2DLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE1881F21BCCF9E300475099 /* FG2DLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1882001BCCF9E300475099 /* Build configuration list for PBXNativeTarget "FG2DLibraryTests" */;
+			buildPhases = (
+				DE1881EF1BCCF9E300475099 /* Sources */,
+				DE1881F01BCCF9E300475099 /* Frameworks */,
+				DE1881F11BCCF9E300475099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE1881F51BCCF9E300475099 /* PBXTargetDependency */,
+			);
+			name = FG2DLibraryTests;
+			productName = FG2DLibraryTests;
+			productReference = DE1881F31BCCF9E300475099 /* FG2DLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE1881CD1BCCF9E300475099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Fang Zijian";
+				TargetAttributes = {
+					DE1881D41BCCF9E300475099 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DE1881F21BCCF9E300475099 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DE1881D41BCCF9E300475099;
+					};
+				};
+			};
+			buildConfigurationList = DE1881D01BCCF9E300475099 /* Build configuration list for PBXProject "FG2DLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE1881CC1BCCF9E300475099;
+			productRefGroup = DE1881D61BCCF9E300475099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE1881D41BCCF9E300475099 /* FG2DLibrary */,
+				DE1881F21BCCF9E300475099 /* FG2DLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE1881D31BCCF9E300475099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1881EE1BCCF9E300475099 /* LaunchScreen.xib in Resources */,
+				DE1881EB1BCCF9E300475099 /* Images.xcassets in Resources */,
+				DE1881E31BCCF9E300475099 /* GameScene.sks in Resources */,
+				DE1881E91BCCF9E300475099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1881F11BCCF9E300475099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE1881D11BCCF9E300475099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1881E61BCCF9E300475099 /* GameViewController.m in Sources */,
+				DE1882091BCD06D800475099 /* FGMovement.m in Sources */,
+				DE1881DE1BCCF9E300475099 /* AppDelegate.m in Sources */,
+				DE1882061BCD033800475099 /* FGSceneConfig.m in Sources */,
+				DE1881E11BCCF9E300475099 /* GameScene.m in Sources */,
+				DE1881DB1BCCF9E300475099 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1881EF1BCCF9E300475099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1881FA1BCCF9E300475099 /* FG2DLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE1881F51BCCF9E300475099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE1881D41BCCF9E300475099 /* FG2DLibrary */;
+			targetProxy = DE1881F41BCCF9E300475099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE1881E71BCCF9E300475099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1881E81BCCF9E300475099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE1881EC1BCCF9E300475099 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE1881ED1BCCF9E300475099 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE1881FB1BCCF9E300475099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE1881FC1BCCF9E300475099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1881FE1BCCF9E300475099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FG2DLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE1881FF1BCCF9E300475099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FG2DLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE1882011BCCF9E300475099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FG2DLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FG2DLibrary.app/FG2DLibrary";
+			};
+			name = Debug;
+		};
+		DE1882021BCCF9E300475099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FG2DLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FG2DLibrary.app/FG2DLibrary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE1881D01BCCF9E300475099 /* Build configuration list for PBXProject "FG2DLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1881FB1BCCF9E300475099 /* Debug */,
+				DE1881FC1BCCF9E300475099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1881FD1BCCF9E300475099 /* Build configuration list for PBXNativeTarget "FG2DLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1881FE1BCCF9E300475099 /* Debug */,
+				DE1881FF1BCCF9E300475099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE1882001BCCF9E300475099 /* Build configuration list for PBXNativeTarget "FG2DLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE1882011BCCF9E300475099 /* Debug */,
+				DE1882021BCCF9E300475099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE1881CD1BCCF9E300475099 /* Project object */;
+}
